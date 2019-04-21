@@ -54,7 +54,7 @@ router
             } else {
                 console.log('python '+path.join(__dirname,'..','py','eval.py')+' --cuda --load_model '+ path.join(__dirname,'..','py','300Gen_net.pt')+' --load_img '+path.join(__dirname,'..','public','files',temp.filename) +' --outfile '+path.join(__dirname,'..','public','files','temp.png'))
                 shell.exec('python '+path.join(__dirname,'..','py','eval.py')+' --cuda --load_model '+ path.join(__dirname,'..','py','300Gen_net.pt')+' --load_img '+path.join(__dirname,'..','public','files',temp.filename) +' --outfile '+path.join(__dirname,'..','public','files','temp.png'))
-                res.redirect('/app/modelresult?file='+temp.fieldname);
+                res.redirect('/app/modelresult?file='+temp.filename);
             }
         }
     )
