@@ -1,0 +1,167 @@
+
+@font-face{
+    font-family: RobotoCondensed;
+    src: url('fonts/RobotoCondensed-Bold.ttf');
+    font-weight: bold;
+}
+@font-face{
+    font-family: RobotoCondensed;
+    src: url('fonts/RobotoCondensed-Regular.ttf');
+    font-weight: normal;
+}
+
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.fancy-back{
+    background-image: url("images/canyon.jpg");
+    position: absolute;
+
+    width: 100%;
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    transform: scale(1.1);
+    /* Full height */
+    height: 1080px; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wall-back{
+    background-image: url("images/wall.jpg");
+    position: absolute;
+
+    width: 100%;
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    transform: scale(1.1);
+    /* Full height */
+    height: 1080px; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+.back{
+    position: relative;
+}
+.select-box{
+    margin-top: 40%;
+    min-height: 10rem;
+    background: #ffffff61;
+    border: 2px solid #8bb9f361;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding: 4% 10%;
+}
+.select-box.l{
+    margin-top: 10%;
+}
+
+.form-control.single{
+    display: inline-block;
+    width: 70%;
+}
+button.single{
+    display: inline-block;
+    margin-bottom: 6px;
+}
+.single{
+    font-family: RobotoCondensed;
+    font-size: 25px;
+}
+
+.double-btn{
+    font-family: RobotoCondensed;
+    font-size: 35px;
+    margin-left: 5%;
+    font-weight: normal;
+    margin-right: 5%;
+}
+.double-btn a{
+    color: aliceblue;
+
+}
+
+.select-box.double-btn{
+    display: inline-flex;
+    /* display: flex; */
+    justify-content: center;
+}
+
+.upload{
+    display: inline;
+    float: left;
+}
+.upload.w85{
+    width: 85%;
+}
+button.upload{
+    font-size: 27px;
+    margin: 5px 0 0 2px;
+
+}
+
+.image-box{
+    width: 500px;
+    height:500px;
+    justify-content: center;
+    padding: 0 0;
+    margin: auto;
+}
+.image-box img {
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    display: flex;
+}
+
+.boxed{
+    margin: 5px 25%;
+}
+
+.big-button{
+    height: 100%;
+    width: 100%;
+    color: aliceblue;
+}
+.big-button a{
+    color: aliceblue;
+}
+.big-button:hover a{
+    color: black;
+}
+
+.big-button:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+    background: aliceblue;
+    color: black;
+}
+
+.browser-btn{
+    padding: 10px 15%;
+}
+
+.floater{
+    padding: 20px;
+}
+
+.card{
+    border: 0;
+    background: transparent;
+
+}
+
+.img{
+    box-shadow: 2px -1px 20px 0px #49a0a2;
+}
